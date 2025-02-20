@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); if (@array > 3 && 3 < @array) { my $element = $array[3]; # Accessing element at index 3 only if it exists print "Element at index 3: $element\n"; } else { print "Index out of bounds\n"; } 
